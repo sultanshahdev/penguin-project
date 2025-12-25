@@ -3,15 +3,21 @@ body
     display:flex;
     flex-direction:column;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+    padding:0px;
+    margin:0px;
 }
 a
 {
     text-decoration:none;
     color:white;
 }
+#logo
+{
+    border-radius:100px
+}
 .one
 {
+    padding:13px;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -23,7 +29,7 @@ a
 {
     display:flex;
     justify-content:space-between;
-    width:800px;
+    width:900px;
     align-items:center;
 
 }
@@ -45,9 +51,10 @@ a
 .desc-image-box
 {
     display:flex;
-    width:800px;    
+    width:900px;    
     margin-bottom:120px;
 
+    justify-content:space-between;
 }
 .desc
 {
@@ -55,6 +62,8 @@ a
     flex-direction:column;
     padding-right:20px;
     gap:12px;
+    justify-content:space-between;
+
 }
 .sign-up
 {
@@ -68,7 +77,7 @@ a
     
     text-align:center;
     background-color:#469be0;
-    color:F9FAF8;
+    color:#F9FAF8;
 }
 img
 {
@@ -83,12 +92,13 @@ h1
 .text-one
 {
     color:#F9FAF8;
-    font-size:48px;
+    font-size:40px;
 }
 .text-two
 {
-    font-size:18px;
+    font-size:16    px;
     color: #E5E7EB;
+    width:400px;
 
 }
 .two
@@ -114,16 +124,114 @@ h1
     gap:20px;
     flex-basis:400px;
     justify-content:center;
-    
+    margin-bottom:100px;
+
 }
-.section-image
-{
-    border:7px solid #469be0;
-}
+
 .section-one,.section-two,.section-three,.section-four
 {
     display:flex;
     flex-direction:column;
     gap:10px;
     flex:0;
+    font-size:18px;
+}
+
+.three
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#E5E7EB;
+    flex-direction:column;
+    flex-basis:400px;
+
+}
+.quote
+{
+    text-align:left;
+    flex-basis:auto;
+    width:740px;
+    font-size:36px;
+    font-weight:300;
+    color: #1F2937;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+
+
+}
+.credit
+{
+    font-size:19px;
+    font-weight:bold;
+    color:black;
+    text-align:right;
+    margin-right:10px;
+}
+
+.four
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-basis:300px;
+
+}
+
+.sign-up-box
+{
+    background-color:#469be0;
+    flex-basis:800px;
+    height:120px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border-radius:10px;
+
+}
+#button-two
+{
+    border:1px solid #F9FAF8;
+}
+.message-heading
+{
+    font-size:23px;
+    font-weight:bold;
+    color:#F9FAF8;
+
+}
+.message
+{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.section-image
+{
+    
+  width: 200px;  /* Set the desired width of the cropped area */
+  height:200px; /* Set the desired height of the cropped area */
+  object-fit: cover; /* This will scale and crop the image to fill the dimensions */
+  object-position: center; /* (Optional) Focus the crop on the center (default) */
+    border:2px solid#1F2937;
+}
+
+
+.message-text
+{
+    font-size:16px;
+    color:#E5E7EB;
+    flex:0;
+    width:520px;
+}
+.five
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: #F9FAF8;
+    background-color:#1F2937;
+    height:80px;
 }
