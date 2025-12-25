@@ -1,0 +1,129 @@
+body
+{
+    display:flex;
+    flex-direction:column;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+a
+{
+    text-decoration:none;
+    color:white;
+}
+.one
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:#273344;
+    gap:120px;
+    
+}
+.header
+{
+    display:flex;
+    justify-content:space-between;
+    width:800px;
+    align-items:center;
+
+}
+.logo-content
+{
+    display:flex;
+    font-weight:bold;
+    font-size:24px;
+    color:white;
+    align-items:center;
+    gap:10px;
+}
+.link-box
+{
+    display:flex;
+    gap:20px;
+    font-size:18px;
+}
+.desc-image-box
+{
+    display:flex;
+    width:800px;    
+    margin-bottom:120px;
+
+}
+.desc
+{
+    display:flex;
+    flex-direction:column;
+    padding-right:20px;
+    gap:12px;
+}
+.sign-up
+{
+    all:unset;
+    flex-basis:auto;
+
+    width:120px;
+    height:40px;
+    border-radius:6px;
+    font-weight:bold;
+    
+    text-align:center;
+    background-color:#469be0;
+    color:F9FAF8;
+}
+img
+{
+    border-radius:20px;
+
+}
+h1
+{
+    margin:0;
+
+}
+.text-one
+{
+    color:#F9FAF8;
+    font-size:48px;
+}
+.text-two
+{
+    font-size:18px;
+    color: #E5E7EB;
+
+}
+.two
+{
+    display:flex;
+    flex-direction:column;
+}
+.information-text
+{
+    display:flex;
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900px;
+    flex-basis:100px;
+    justify-content:center;
+    align-items:center;
+    
+}
+.sections
+{
+    display:flex;
+    text-align:center;
+    gap:20px;
+    flex-basis:400px;
+    justify-content:center;
+    
+}
+.section-image
+{
+    border:7px solid #469be0;
+}
+.section-one,.section-two,.section-three,.section-four
+{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    flex:0;
+}
